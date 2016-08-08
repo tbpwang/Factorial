@@ -5,11 +5,6 @@ import java.math.BigInteger;
 public class Main  {
 
     public static void main(String[] args) {
-        // write your code here
-//        long[] fac = new long[30];
-//        for (int i = 0; i < 30; i++) {
-//            fac[i] = factorial(i + 1L);
-//        }
 
         BigInteger result = new BigInteger("0");
 
