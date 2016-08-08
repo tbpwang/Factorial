@@ -37,7 +37,7 @@ public class Main  {
         return result;
     }
 
-    static BigInteger getFactorial(int n) {
+    private static BigInteger getFactorial(int n) {
         return (n == 0) ? new BigInteger("1") : (getFactorial(n - 1)).multiply(new BigInteger(String.valueOf(n)));
     }
 
